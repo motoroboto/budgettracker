@@ -1,10 +1,6 @@
 const CACHE_NAME = 'static-cache-budget';
 const DATA_CACHE_NAME = 'data-cache-budget';
 
-// const iconSizes = ["192", "512"];
-// const iconFiles = iconSizes.map(
-//     (size) => `icons/icon-${size}x${size}.png`
-// );
 
 const FILES_TO_CACHE = [
     "/",
@@ -15,7 +11,6 @@ const FILES_TO_CACHE = [
     "/icons/icon-512x512.png",
     "/db.js"
 ];
-// ].concat(iconFiles);
 
 
 // install
